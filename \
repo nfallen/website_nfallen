@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>nfallen</title>
+<style type="text/css">
+body { color: black; background: rgb(0,204,248); 
+	margin-left: 8%; margin-right: 8%;
+	font-family: Verdana, sans-serif;
+}
+div.box { border: solid; border-width: thin; width: 100%; 
+background: rgb(204,248,248); }
+h1 { text-align: center; }
+h4 { text-align: center; }
+</style>
+</head>
+<body>
+<div class="box">
+<h1>LaundryPro</h1>
+<h4>Created by Hannah McGrath and Nova Fallen for ESE 111 at the University of Pennsylvania</h4>
+</div>
+<canvas id="basic-canvas" width="200" height="300"></canvas>
+<br>
+<img src="IMG_0851.JPG" width="400" height="300">
+<img src="IMG_0852.JPG" width="400" height="300">
+<h2>The Problem</h2>
+<p>College students don't have much time. And the last way they want to spend that precious time is in the laundry room, waiting for a washing machine or dryer. Unfortunately, on college campuses finding an available machine can be a challenge. The number of students greatly exceeds the number of machines. For example, on Penn's campus, there are 35 freshmen to each laundry machine in a freshman dorm. Often, students will make the long trek to the laundry room only to find there is nothing available for another 30 minutes. Obviously, this is a huge problem for busy students.</p>
+<h2>The Solution</h2>
+<p>That's where LaundryPro comes in. LaundryPro is a device made with Arduino technology that we envision being placed inside the door of a washing machine or dryer. It detects whether the machine is in use or available using motion detection technologies. Our prototype sends this information to another Arduino which displays the state of the laundry machine on a screen. The concept for the final device is that it will update a website along with Arduinos on the other laundry machines, thus creating a full picture of what is available in a laundry room. Students will save time and hassle with LaundryPro! Check out the links and videos to learn more about the design and implementation of our product and the technology behind it.</p>
+<a href="ESE111FinalReport.pdf">Final Report</a>
+<br>
+<a href="Microsoft PowerPoint - LaundryPro.pdf">Poster</a>
+<h3>Demo Videos</h3>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/CZI_onYkZhM" frameborder="0" allowfullscreen></iframe>
+<br>
+<iframe width="420" height="315" src="//www.youtube.com/embed/jW4hrJ_3L1U" frameborder="0" allowfullscreen></iframe>
+<br>
+<iframe width="420" height="315" src="//www.youtube.com/embed/2Lt-VYbMXbc" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
